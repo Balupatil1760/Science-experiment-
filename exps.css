@@ -1,0 +1,29 @@
+.exp{
+    width:70%;
+    background-color: #e75501;
+    border-radius: 30px 30px 0 0;
+    margin: 40px auto 10px;
+    padding: 50px;
+    color:white;
+}
+.row{
+    width:80%;
+    margin: auto;
+    padding: 20px;
+}
+.col{
+    display: inline-block;
+    width: 25%;
+    height: 40%;
+    padding: 20px;
+}
+.col img{
+    width: 100%;
+    height: 100%;
+    transition: 1s ease all;
+}
+.col img:hover{
+    transform: scale(1.2,1.2);
+    border: 2px solid #551A8B;
+    border-radius: 20px;
+}

@@ -1,0 +1,29 @@
+body{
+    background-image: none;
+}
+.contact{
+    width:70%;
+    margin: 30px auto 0px;
+    padding: 20px; 
+}
+.group{
+    width: 80%;
+    margin: auto;
+}
+.group div{
+    margin-bottom: 30px;
+    width: 100%;
+}
+.frm{
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ced4da;
+     border-left: 4px solid #551A8B;
+}
+.frmsubmit{
+    width:20%;
+    height: 10%;
+    background-color: #95e340;
+    color:#551A8B;
+    font-size: 1.2em;
+}

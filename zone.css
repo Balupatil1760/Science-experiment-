@@ -1,0 +1,28 @@
+.zone .content{
+         padding:10px;
+         margin-top: 40px;    
+         color: white;
+     }
+.zone .content h1{
+     text-align: center;
+}
+.zone .content .camp{
+	display: inline-block;
+}
+.zone .content .camp-1 img{
+	max-width: 100%;
+	height: 100%;
+}
+.zone .content .camp-1{
+	width: 30%;
+	margin-left: 100px;
+	height: 40%;
+}
+.zone .content .camp-2{
+	width: 50%;
+	text-align: justify;
+	margin-left: 30px;
+}
+.camp-2 p{
+	font-size: 1.3em;
+}

@@ -1,0 +1,140 @@
+/******* COLORS **********/
+.blue{
+    color:#002433;    
+}
+.pink{
+   
+      color: #ff0065;   
+}
+.purple{
+     color:  #551A8B;
+}
+.green{
+    color:#95e340;
+}
+.bgpink{
+    background-color: #ff0065;
+}
+.bgpurple{
+    background-color:  #551A8B;
+}
+.bggreen{
+     background-color:#95e340;
+}
+
+
+/******* BODY **********/
+body {
+     background:  url(images/bgnd1.jpeg) ;
+       margin: 0;
+    }
+ 
+/****** HEADER *******/
+.header{
+    background-image: linear-gradient(to bottom right,rgb(0, 36, 51) 50%, rgb(255, 0, 101));
+}
+
+.header h1{
+    position: relative;
+    display: inline-block;
+    margin-top: -80px;
+    font-size: 2em;
+    color:white;
+}
+.exps{
+    border-radius: 50%;
+}
+.sffe{
+    animation: spin 3s linear 5;
+    margin-left: 120px;
+}
+/******* NAVIGATION BAR ********/
+ .nav{
+          padding:20px;
+          width:60%;
+          margin: auto;
+          text-align: center;
+          font:normal 1.2em/1 "Slackey", Arial, Helvetica, sans-serif;
+      }
+      
+      .nav a{
+          color:  #551A8B;
+          background-color:#95e340;
+          padding: 20px;
+          transition: .5s ease-out all;
+          border-radius:15px 15px 0 0;
+          margin-right: 10px;
+      }
+      .nav a:hover{
+          color:  #95e340;
+          background-color:#551A8B; 
+      }
+/******* MAIN CONTENT **********/
+      .main{
+          padding: 40px;
+          margin: auto;
+          width: 70%;
+          background-color: #551A8B;
+          color: white;
+          font-size: 1.3em;
+          -webkit-border-image:  url(images/border1.png) 30 stretch;
+          -moz-border-image:  url(images/border1.png) 30 stretch;
+
+      }
+      .main p{
+          font-family: 'Balthazar';font-size: 20px;
+          padding:20px 60px 10px;
+          text-align: justify;
+      }
+.im1{
+          width: 30%;
+          margin: auto;
+      }
+
+/******* FOOTER **********/
+.footer{
+          padding:50px;
+          margin-top: 60px;
+           background-color: #002433;
+          color: white;
+          overflow: auto;
+      }
+
+.footer .content{
+    margin-left: 40px;
+    display: inline-block;
+}
+.footer .content i{
+    margin-right: 40px;
+    font-size: 80px;
+    
+}
+ .footer .content-1{
+    width: 50%;
+    border-right: 2px solid #95e340;
+    
+}
+ .footer .content-2 span{
+    position: relative;
+    top:-20px;
+    font-size: 2em;
+    
+}
+
+/******* ANIMATIONS **********/
+     @keyframes spin{
+          0%{transform: rotate(0)}
+         /* 50%{transform: rotate(360deg)}*/
+          100%{transform: rotate(360deg)}
+      }
+
+
+
+
+
+
+
+
+
+
+
